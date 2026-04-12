@@ -37,7 +37,7 @@ export default function Navbar() {
             </li>
           ))}
           <li className="navbar__links-cta">
-            <a href="tel:+13035551234" className="btn btn-primary" onClick={() => setMenuOpen(false)}>
+            <a href="tel:+13039956349" className="btn btn-primary" onClick={() => setMenuOpen(false)}>
               Call Now
             </a>
           </li>

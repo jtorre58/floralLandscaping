@@ -66,7 +66,7 @@ export default function Contact() {
                 <span className="contact__info-icon">📞</span>
                 <div>
                   <h4>Phone</h4>
-                  <p><a href="tel:+13035551234">Call for Free Estimate</a></p>
+                  <p><a href="tel:+13039956349">(303) 995-6349</a></p>
                 </div>
               </div>
 
@@ -96,7 +96,7 @@ export default function Contact() {
               </div>
               <div className="contact__field">
                 <label htmlFor="phone">Phone Number</label>
-                <input type="tel" id="phone" name="phone" placeholder="(303) 555-1234" required />
+                <input type="tel" id="phone" name="phone" placeholder="(303) 995-6349" required />
               </div>
             </div>
             <div className="contact__field">
