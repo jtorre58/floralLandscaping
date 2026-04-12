@@ -1,16 +1,24 @@
-# React + Vite
+# Floral Lawn Care Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Modern React website for Floral Lawn Care — a landscaping company serving the Denver, CO metro area.
 
-Currently, two official plugins are available:
+## Tech Stack
+- React 19 + Vite 8
+- EmailJS for contact form submissions
+- Pure CSS (no frameworks)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Getting Started
 
-## React Compiler
+```bash
+npm install
+npm run dev
+```
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## EmailJS Setup
 
-## Expanding the ESLint configuration
+Open `src/components/Contact.jsx` and replace the 3 placeholder values:
+- `YOUR_SERVICE_ID`
+- `YOUR_TEMPLATE_ID`
+- `YOUR_PUBLIC_KEY`
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+See comments in the file for step-by-step instructions.
