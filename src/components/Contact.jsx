@@ -107,12 +107,16 @@ export default function Contact() {
               <label htmlFor="service">Service Needed</label>
               <select id="service" name="service" defaultValue="">
                 <option value="" disabled>Select a service</option>
-                <option>New Grass Installation</option>
-                <option>Sprinkler System</option>
+                <option>New Grass Installation / Sodding</option>
+                <option>Lawn Mowing & Maintenance</option>
+                <option>Sprinkler System / Blow Out</option>
                 <option>Rock Decoration</option>
                 <option>Mulch & Ground Cover</option>
-                <option>Paver Walkways & Patios</option>
-                <option>Lawn Maintenance</option>
+                <option>Retaining Walls</option>
+                <option>Shrub Pruning & Weeding</option>
+                <option>New Fences</option>
+                <option>Fertilization & Cleanup</option>
+                <option>Trimming & Edging</option>
                 <option>Other</option>
               </select>
             </div>

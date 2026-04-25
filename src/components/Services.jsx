@@ -3,13 +3,18 @@ import './Services.css'
 const services = [
   {
     icon: '🌱',
-    title: 'New Grass Installation',
+    title: 'New Grass Installation & Sodding',
     desc: 'Fresh sod or seed installation to give your yard a lush, green foundation. We prepare the soil and ensure proper drainage for lasting results.',
   },
   {
+    icon: '✂️',
+    title: 'Lawn Mowing & Maintenance',
+    desc: 'Regular mowing, trimming, edging, and seasonal cleanup to keep your property looking its best throughout the year.',
+  },
+  {
     icon: '💧',
-    title: 'Sprinkler Systems',
-    desc: 'Professional sprinkler system installation, repair, and seasonal maintenance. Keep your lawn hydrated efficiently all year round.',
+    title: 'Sprinkler Systems & Blow Out',
+    desc: 'Professional sprinkler system installation, repair, and seasonal blow out service. Keep your lawn hydrated efficiently all year round.',
   },
   {
     icon: '🪨',
@@ -23,13 +28,23 @@ const services = [
   },
   {
     icon: '🧱',
-    title: 'Paver Walkways & Patios',
-    desc: 'Beautiful paver stone walkways and patios designed and installed to enhance your outdoor living and curb appeal.',
+    title: 'Retaining Walls',
+    desc: 'Durable and attractive retaining walls to manage slopes, prevent erosion, and add structure to your landscape.',
   },
   {
-    icon: '✂️',
-    title: 'Lawn Maintenance',
-    desc: 'Regular mowing, edging, trimming, and seasonal cleanup to keep your property looking its best throughout the year.',
+    icon: '🌳',
+    title: 'Shrub Pruning & Weeding',
+    desc: 'Expert shrub pruning, weeding, and plant care to keep your garden beds healthy, tidy, and thriving.',
+  },
+  {
+    icon: '🏡',
+    title: 'New Fences',
+    desc: 'Quality fence installation to add privacy, security, and curb appeal to your property. Various styles and materials available.',
+  },
+  {
+    icon: '🍂',
+    title: 'Fertilization & Cleanup',
+    desc: 'Seasonal fertilization to promote healthy growth, plus full yard cleanup services to keep your property spotless.',
   },
 ]
 

@@ -1,0 +1,35 @@
+.flyer-banner {
+  background: var(--green-900);
+  padding: 3rem 1.5rem;
+  margin-top: -1px;
+}
+
+.flyer-banner__inner {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.flyer-banner__inner img {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+  transition: transform 0.3s ease;
+}
+
+.flyer-banner__inner img:hover {
+  transform: scale(1.02);
+}
+
+@media (max-width: 640px) {
+  .flyer-banner__inner {
+    grid-template-columns: 1fr;
+  }
+
+  .flyer-banner {
+    padding: 2rem 1rem;
+  }
+}
